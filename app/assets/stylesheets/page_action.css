@@ -1,0 +1,55 @@
+
+ 	
+
+.page_action{
+	display: block;
+	width: 70%;
+	text-align: center;
+	margin-left: 16%;
+}
+
+@media screen and (max-width: 768px){
+ .page_action{
+	display: block;
+	width: 90%;
+	text-align: center;
+	margin-left: 16%;
+	}
+}
+
+.titre_page_action{
+	display:block;
+	text-align: center;
+	font-size:1.5em;
+	color: #00518A; 
+}
+
+.texte_page_action{
+	display: block;
+	width: 70%;
+	margin:auto;
+	padding: 3%;
+	font-size: 1.2em;
+}
+
+.bloc_logos{
+	margin-bottom:5%;
+}
+
+.taille2{
+	width:8%;
+}
+
+.button_action {
+	border: solid 3px #337AB7;
+	padding: 12px;
+	color: #337AB7;
+	text-decoration: none;
+}
+
+.button_action:hover {
+	border: solid 3px #337AB7;
+	background-color: #00518A;
+	color: white;
+	text-decoration: none;
+}
